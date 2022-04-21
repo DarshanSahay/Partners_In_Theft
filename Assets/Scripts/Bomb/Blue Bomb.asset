@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4f7b15b2bde0740b9293508b5868ea, type: 3}
+  m_Name: Blue Bomb
+  m_EditorClassIdentifier: 
+  checkRadius: 0
+  forceAmount: {x: 0, y: 0}
+  bombExplodeTime: 3
+  maxLifeTime: 3.6
+  bombPrefab: {fileID: 5111230512915949261, guid: 67cb3d760406e0e4fa50779e241d65cf, type: 3}
+  detectionPosition: {fileID: 5111230512915949297, guid: 67cb3d760406e0e4fa50779e241d65cf, type: 3}
+  mask:
+    serializedVersion: 2
+    m_Bits: 1664
+  btype: 1
